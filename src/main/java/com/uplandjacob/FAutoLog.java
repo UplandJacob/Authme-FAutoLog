@@ -62,7 +62,4 @@ public class FAutoLog extends JavaPlugin implements Listener {
         }
     }
 
-    private String getMessage(String key) {
-        return config.getString("messages." + key, "&cText missing, please check the configuration file.").replace("&", "§");
-    }
 }
