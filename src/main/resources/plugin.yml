@@ -1,6 +1,6 @@
 main: com.uplandjacob.FAutoLog
 name: FAutoLog
-version: 3.0.0
+version: 1.0.0
 description: This plugin automatically logs in Floodgate (Bedrock) players with AuthMe.
 api-version: "1.20"
 folia-supported: true
