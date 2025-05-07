@@ -1,4 +1,4 @@
-package com.puddingkc;
+package com.uplandjacob;
 
 import fr.xephi.authme.api.v3.AuthMeApi;
 import org.bukkit.Bukkit;
@@ -10,13 +10,13 @@ import org.bukkit.event.player.PlayerJoinEvent;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.geysermc.floodgate.api.FloodgateApi;
 
-public class KcLoginGui extends JavaPlugin implements Listener {
+public class FAutoLog extends JavaPlugin implements Listener {
     private boolean debugMode;
     private FileConfiguration config;
 
     @Override
     public void onEnable() {
-        getLogger().info("KcLoginGui is enabling, current AuthMe version");
+        getLogger().info("FAutoLog is enabling, current AuthMe version");
         saveDefaultConfig();
 
         if (isPluginEnabled("floodgate")) {
